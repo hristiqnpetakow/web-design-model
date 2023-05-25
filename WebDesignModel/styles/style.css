@@ -1,0 +1,371 @@
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0%;
+    
+}
+
+.clear-fix{
+    clear: both;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    margin: 0;
+    height: 100%;
+}
+
+/*HEADER CONTAINER*/
+.header-container{
+    min-height: 100%;
+    background: url("../images/header.jpg");
+    background-size: 100% 100%;
+    padding-top: 8px;
+    opacity: 0.9;
+}
+/*HEADER CONTAINER END*/
+
+/*MENU*/
+.header-container-menu{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 24px;
+    margin: auto;
+      
+}
+
+.header-container-menu li:nth-child(1){
+    margin-left: 10px;
+}
+
+.header-container-menu li{
+    display: inline-block;
+    margin-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;       
+}
+
+ .header-container-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 26px; 
+}
+/*MENU END*/
+
+/*HEADER*/
+.header-container-text{
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 200px;
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    
+}
+
+.header-container-text h5{
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/*HEADER END*/
+
+/*FIRST TYPE BUTTON*/
+.first-btn{
+    background-color: #198754;
+    border-radius: 5px;
+    padding: 12px 10px;
+    color: white;
+    margin-top: 40px;
+    border: none;
+}
+/*FIRST TYPE BUTTON END*/
+
+/*SECOND TYPE BUTTON*/
+.second-btn{
+    border-radius: 4px;
+    padding: 7px;
+    border: none;
+    margin-right: 18px;
+    color: black;
+    background-color: f8f9fa;
+}
+/*SECOND TYPE BUTTON END*/
+
+/*PHRASE*/
+.phrase-box{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.phrase-box h2{
+    padding-top: 100px;
+    margin-bottom: 10px;
+    color: #198754;
+    text-shadow: 1px 1px 1px black;   
+}
+
+.phrase-box h4{
+    color: #858fa2;
+    font-size: 15px;
+    font-weight: 100;
+}
+/*PHRASE END*/
+
+
+/*PURPOSE*/
+.purpose-box{
+    background-color: #198754;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+}
+
+.purpose-text{
+    padding-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px black;  
+    font-size: 18px;
+}
+
+.purpose-text h6{
+    padding-bottom: 8px;
+}
+
+.purpose-icons{
+    display: inline-block;
+}
+
+.purpose-icons i{
+    background-color: white;
+    width: 100px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 0 80px;
+    margin-top: 40px;
+}
+
+.purpose-icons h3{
+    margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.fa-heart{
+    color: rgb(44, 128, 238);
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.fa-bolt{
+    color: rgb(44, 128, 238);
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.fa-pen{
+    color: rgb(44, 128, 238);
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.fa-map{
+    color: rgb(44, 128, 238);
+    font-size: 30px;
+    padding-top: 30px;
+}
+/*PURPOSE END*/
+
+
+/*JOIN IN*/
+.join-in-box{
+    
+    width: 100%;
+    background: url("../images/beach.jpg");
+    background-position: -300px -650px ;
+    text-align: center;
+    height: 550px;
+}
+
+.join-in-box h1{
+    color: white;
+    padding-top: 220px;
+    font-size: 45px;
+    text-shadow: 1px 1px 1px black; 
+}
+/*JOIN IN END*/
+
+/*LAST ACTIVITY*/
+.last-activity-box{
+    height: 920px;
+    background-color: white;
+}
+
+.last-activity-box h1{
+    margin-bottom: 40px;
+    margin-top: 100px;
+    text-align: center;
+    color: #198754;
+    text-shadow: 1px 1px 1px black;  
+    font-size: 37px;
+}
+
+.box-act{
+    width: 50%;
+    float: left;
+}
+
+.box-act img{
+    display: block;
+    width: 100%;
+    filter: brightness(80%);
+    position: relative;
+}
+
+
+.our-last-activity-container{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.text-img1{
+    position: absolute;
+    top: 2455px;
+    left: 205px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.text-img1-2{
+    position: absolute;
+    top: 2480px;
+    left: 205px;
+    color: #edeff3;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.text-img2{
+    position: absolute;
+    top: 2455px;
+    left: 745px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.text-img2-2{
+    position: absolute;
+    top: 2480px;
+    left: 745px;
+    color: #edeff3;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.text-img3{
+    position: absolute;
+    top: 2815px;
+    left: 205px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.text-img3-2{
+    position: absolute;
+    top: 2840px;
+    left: 205px;
+    color: #edeff3;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.text-img4{
+    position: absolute;
+    top: 2815px;
+    left: 745px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.text-img4-2{
+    position: absolute;
+    top: 2840px;
+    left: 745px;
+    color: #edeff3;
+    font-weight: lighter;
+    font-size: 16px;
+}
+/*LAST ACTIVITY END*/
+
+/*HELP*/
+.help-box{
+    height: 280px;
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;  
+}
+
+.help-box h2{
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+/*HELP END*/
+
+/*SOCIAL MEDIA*/
+.social-media-box{
+    width: 100%;
+    height: 220px;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.social-media-box i{
+    width: 60px;
+    height: 40px;
+    background: #198754;
+    border-radius: 100%;    
+}
+.social-media-box a{
+    text-decoration: none;
+    line-height: 100px;
+}
+
+.fa{
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    padding-top: 17px;   
+}
+
+.social-media-box h5{
+    font-size: 10px;
+    color: #858fa2;
+    margin-top: 35px;
+}
+/*SOCIAL MEDIA END*/
